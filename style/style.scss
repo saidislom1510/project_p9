@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1240px;
+}
+
+@import '_header.scss';
+@import '_onas.scss';
+@import '_korzinka.scss';
+@import '__contact.scss';
+
